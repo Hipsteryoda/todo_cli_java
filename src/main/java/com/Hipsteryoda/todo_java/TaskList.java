@@ -6,7 +6,8 @@ import java.io.FileReader;
 
 public class TaskList {
 
-  private ArrayList<Task> tasks = new ArrayList<Task>();
+  //private ArrayList<Task> tasks = new ArrayList<Task>();
+  // TODO: read in the file path from a config file
   private String fileName = "/home/ksmith/birds/todo_java/src/main/java/com/Hipsteryoda/todo_java/todo.json"; 
   private String jsonStr = "";
 
@@ -14,9 +15,9 @@ public class TaskList {
     try { 
       BufferedReader bufferedReader = new BufferedReader(new FileReader(fileName));
       String line;
-      System.out.printf("%-14s", "ID");
-      System.out.printf("%-14s", "| Completed");
-      System.out.printf("%-100s\n", "| Task");
+      
+      //TODO: figure out why different escape codes seem to consume more or less width 
+      System.out.printf("\n%-14s %-13s %-13s\n", "\033[4;33mID", "| Completed", "| Task \033[0m");
       // only print json elements that are comple
       while ((line = bufferedReader.readLine()) != null) {
         if (line.contains("{") && !line.contains("},")) {
@@ -36,9 +37,9 @@ public class TaskList {
           String completed = completedLine.substring(colonIdx + 2);
 
           if (completed.equals("false")) {
-            System.out.printf("%-14s", id);
+            System.out.printf("%-8s", id);
             System.out.printf("%-14s", "| " + completed);
-            System.out.printf("%-14s\n", "| " + task);
+            System.out.printf("%-100s\n", "| " + task);
           }
         }
       }

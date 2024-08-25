@@ -6,3 +6,4 @@
 *.jar
 target/
 src/main/java/com/Hipsteryoda/todo_java/todo.json
+*.txt

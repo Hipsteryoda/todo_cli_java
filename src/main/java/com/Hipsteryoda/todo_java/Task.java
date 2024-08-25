@@ -36,6 +36,7 @@ class Task {
 
   public void writeOut() {
     try {
+      // TODO: read in file path from a config file
       FileOutputStream fileStream = new FileOutputStream("/home/ksmith/birds/todo_java/src/main/java/com/Hipsteryoda/todo_java/todo.json", true);
       PrintWriter outFS = new PrintWriter(fileStream);
       outFS.write("{");
