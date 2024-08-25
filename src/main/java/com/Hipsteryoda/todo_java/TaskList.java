@@ -10,7 +10,6 @@ public class TaskList {
   //private ArrayList<Task> tasks = new ArrayList<Task>();
   // TODO: read in the file path from a config file
   private String fileName = "/home/ksmith/birds/todo_java/src/main/java/com/Hipsteryoda/todo_java/todo.json"; 
-  private String jsonStr = "";
 
   public void printIncompleteTasks(BufferedReader bufferedReader) {
     String line;
@@ -49,7 +48,6 @@ public class TaskList {
       
       //TODO: figure out why different escape codes seem to consume more or less width 
       System.out.printf("\n%-14s %-13s %-13s\n", "\033[4;33mID", "| Completed", "| Task \033[0m");
-      // only print json elements that are comple
       printIncompleteTasks(bufferedReader);
       bufferedReader.close();
     } catch (Exception e) {
@@ -57,7 +55,6 @@ public class TaskList {
       // add check to make sure bufferedReader is closed
       // Close if it is open
     }
-    System.out.println(jsonStr);
   }
 
 }
