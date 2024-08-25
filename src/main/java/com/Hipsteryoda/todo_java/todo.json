@@ -1,10 +1,150 @@
 {
-	"id": "0",
-	"task": "New Super Cool Task #3",
-	"completed": "false"
+	"id": 0,
+	"task": "Task 1",
+	"completed": false
 },
 {
-	"id": "0",
-	"task": "Another Super Cool Task with id 0",
-	"completed": "false"
+	"id": 0,
+	"task": "Task 2",
+	"completed": false
+},
+{
+	"id": 0,
+	"task": "New Task",
+	"completed": false
+},
+{
+	"id": 0,
+	"task": "New Task",
+	"completed": false
+},
+{
+	"id": 0,
+	"task": "Also a new task that is really long here",
+	"completed": false
+},
+{
+	"id": 0,
+	"task": "Some new task here",
+	"completed": false
+},
+{
+	"id": 0,
+	"task": "Something new",
+	"completed": false
+},
+{
+	"id": 0,
+	"task": "Some new task",
+	"completed": false
+},
+{
+	"id": 0,
+	"task": "Some new other task",
+	"completed": false
+},
+{
+	"id": 0,
+	"task": "lks",
+	"completed": false
+},
+{
+	"id": 0,
+	"task": "slkdjflak",
+	"completed": false
+},
+{
+	"id": 0,
+	"task": "aslkdjf;",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "alksjdf",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "alksjdf",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "alksjdflk",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "it works!",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "it works better!",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "It works so much better! :)",
+	"completed": true
+},
+{
+	"id": 123,
+	"task": ":)",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "alksjd",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "alskjdf",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "alksjdf",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "al;skdjf;alksd",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "alksjdf",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "alksjdflkjsd",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "alksjdf;lkjasd",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "alksjdf",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "lakjsdf;lkajsd",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "alksjdf;lka",
+	"completed": false
+},
+{
+	"id": 123,
+	"task": "laksjdf;lkasjd;lfkaj;esija;lksejd;alsiejr;aliksej",
+	"completed": false
 },

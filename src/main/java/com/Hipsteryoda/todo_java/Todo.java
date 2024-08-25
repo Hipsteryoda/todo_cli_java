@@ -3,7 +3,7 @@ package com.Hipsteryoda.todo_java;
 import java.util.Scanner;
 
 /**
- * Todo app written in Javaa.
+ * Todo app written in Java.
  * Todo reads and writes from a file in json format. 
  */
 public class Todo {
@@ -14,6 +14,7 @@ public class Todo {
 
     Task newTask = new Task(task);
     newTask.writeOut();
+    TaskList taskList = new TaskList();
 
     scnr.close();
 

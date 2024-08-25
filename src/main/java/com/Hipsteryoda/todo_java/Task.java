@@ -17,6 +17,7 @@ class Task {
   }
 
   public Task(String task) {
+    this.id = getId();
     this.task = task;
   }
 
@@ -30,7 +31,7 @@ class Task {
 
   private int getId() {
     // FIXME: read in the json file and return the highest id + 1
-    return 0;
+    return 123;
   }
 
   public void writeOut() {
@@ -38,9 +39,9 @@ class Task {
       FileOutputStream fileStream = new FileOutputStream("/home/ksmith/birds/todo_java/src/main/java/com/Hipsteryoda/todo_java/todo.json", true);
       PrintWriter outFS = new PrintWriter(fileStream);
       outFS.write("{");
-      outFS.write("\n\t\"id\": \"" + this.id + "\"");
+      outFS.write("\n\t\"id\": " + this.id);
       outFS.write(",\n\t\"task\": \"" + this.task + "\"");
-      outFS.write(",\n\t\"completed\": \"" + this.completed + "\"");
+      outFS.write(",\n\t\"completed\": " + this.completed);
       outFS.write("\n},\n");
       outFS.close();
     } catch (Exception e) {
